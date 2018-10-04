@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    public class basicMathOperations
+    {
+        public double add(double num1, double num2)
+        {
+            return num1 + num2;
+        }
+        public double subtract(double num1, double num2)
+        {
+            return num1 - num2;
+        }
+        public double multiply(double num1, double num2)
+        {
+            return num1 * num2;
+        }
+        public double divide(double num1, double num2)
+        {
+            return num1 / num2;
+        }
+        //public Boolean prime(double num1)
+        //{
+        //    if((num1/7)%2 > 0)
+        //        return false;
+        //    return true;
+        //}
+            public int[] fibReturn(int[] a)
+            {
+            //int[] arr = { 0, 1, 1, 2, 3, 5, 8, 13 };
+
+            int i = 0;
+            foreach(int j in a)
+            {
+                a[i] += 1;
+                i++;
+            }
+                return a;
+            }
+        }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
