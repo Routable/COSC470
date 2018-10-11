@@ -6,34 +6,50 @@ using System.Threading.Tasks;
 
 namespace Lab3
 {
-        public class Account
-        {
-            private decimal balance;
-
-            public void Deposit(decimal amount)
-            {
-                balance += amount;
-            }
-
-            public void Withdraw(decimal amount)
-            {
-                balance -= amount;
-            }
-
-            public void TransferFunds(Account destination, decimal amount)
-            {
-            }
-
-            public decimal Balance
-            {
-                get { return balance; }
-            }
-    }
-
-    class Program
+    public class StringTesting
     {
-        static void Main(string[] args)
+        public string concatonate(String X, String Y)
         {
+            string merged = X + Y;
+            return merged;
+        }
+
+        public bool comparison(String X, String Y)
+        {
+
+            if (X == Y)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public string copystring(string x)
+        {
+            string y = x;
+            return y;
+        }
+
+        public bool empty(string x)
+        {
+            if (String.IsNullOrEmpty(x))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        class Program
+        {
+            static void Main(string[] args)
+            {
+            }
         }
     }
 }

@@ -10,22 +10,41 @@ namespace Lab3
 { 
 
     [TestFixture]
-    public class AccountTest
+    public class StringTest
     {
         [Test]
-        public void TransferFunds()
+        public void testConcatonate()
         {
-            Account source = new Account();
-            source.Deposit(200m);
-
-            Account destination = new Account();
-            destination.Deposit(150m);
-
-            source.TransferFunds(destination, 100m);
-
-            Assert.AreEqual(250m, destination.Balance);
-            Assert.AreEqual(100m, source.Balance);
+            StringTesting source = new StringTesting();
+            string result = source.concatonate("Hello", "World");
+            Assert.AreEqual(result, "HelloWorld");
         }
+
+        [Test]
+        public void testComparison()
+        {
+            StringTesting source = new StringTesting();
+            bool result2 = source.comparison("Hello", "Hello");
+            Assert.AreEqual(result2, true);
+        }
+
+        [Test]
+        public void testEmpty()
+        {
+            StringTesting source = new StringTesting();
+            bool result3 = source.empty("notempty");
+            Assert.AreEqual(result3, false);
+        }
+
+        [Test]
+        public void testCopy()
+        {
+            StringTesting source = new StringTesting();
+            string result4 = source.copystring("copied");
+            Assert.AreEqual(result4, "copied");
+        }
+
+
     }
     public class Class1
     {
