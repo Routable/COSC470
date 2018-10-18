@@ -46,7 +46,7 @@ namespace Lab4.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,name,phone,address,email")] Student student)
+        public ActionResult Create([Bind(Include = "Id,name,phone,address,email,gender")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace Lab4.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,name,phone,address,email")] Student student)
+        public ActionResult Edit([Bind(Include = "Id,name,phone,address,email,gender")] Student student)
         {
             if (ModelState.IsValid)
             {
