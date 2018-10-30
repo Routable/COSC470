@@ -1,0 +1,20 @@
+UNIT TESTING MVC
+----------------
+
+
+Assumption: We have an existing MVC App project.
+Goal: Add Unit test project into the same solutions.
+
+Step 1: Add unit testing project(.NET framework)
+Step 2: Add all the dependencies (NuGet Package Manager)
+        - System.Web.MVC
+	- Entity Framework
+        - Add necessary directives
+Step 3: Connection string (DB) add to your App.Config File 
+
+  <connectionStrings>
+    <add name="studentEntities" connectionString="metadata=res://*/Models.StudentDBModel.csdl|res://*/Models.StudentDBModel.ssdl|res://*/Models.StudentDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\student.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="studentEntities1" connectionString="metadata=res://*/Models.studentDataModel.csdl|res://*/Models.studentDataModel.ssdl|res://*/Models.studentDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\student.mdf;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+
+Step 4: Change attachdbfilename=|DataDirectory| to the path of the database file/name. 
