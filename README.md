@@ -37,7 +37,11 @@
   ### LAB 6 - MVC and MVC Unit Testing Continued
         Create a new MVC project in .NET framework. Add unit test project while creating MVC project that performs several functions.
         1. Create a model of product list containing following attributes: id, name, price
-        2. Create a Product list controller where you insert and return those product information as a list containing two methods -                    - GetProductlist( )
+        2. Create a Product list controller where you insert and return those product information as a list containing two methods
+        
+                - GetProductlist( )
+                
                 - Actionresult Product ( ) - query all records from Productlist
+                
         3. Create associated view to show product list from web front end.
         4. In unit testing MVC project add a Test Method to check whether productlist is null or not.
