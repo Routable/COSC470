@@ -34,3 +34,5 @@
   ### LAB 5 - MVC and MVC Unit Testing. 
         Creating unit tests for the previously built MVC project. 
         
+  ### LAB 6 - MVC and MVC Unit Testing Continued
+        Create a new MVC project in .NET framework. Add unit test project while creating MVC project that performs several functions.
