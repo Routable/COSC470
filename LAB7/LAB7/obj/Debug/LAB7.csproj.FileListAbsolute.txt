@@ -1,0 +1,10 @@
+c:\users\300168447\source\repos\LAB7\LAB7\bin\Debug\LAB7.exe.config
+c:\users\300168447\source\repos\LAB7\LAB7\bin\Debug\LAB7.exe
+c:\users\300168447\source\repos\LAB7\LAB7\bin\Debug\LAB7.pdb
+c:\users\300168447\source\repos\LAB7\LAB7\bin\Debug\WebDriver.dll
+c:\users\300168447\source\repos\LAB7\LAB7\bin\Debug\WebDriver.xml
+c:\users\300168447\source\repos\LAB7\LAB7\obj\Debug\LAB7.csprojAssemblyReference.cache
+c:\users\300168447\source\repos\LAB7\LAB7\obj\Debug\LAB7.csproj.CoreCompileInputs.cache
+c:\users\300168447\source\repos\LAB7\LAB7\obj\Debug\LAB7.csproj.CopyComplete
+c:\users\300168447\source\repos\LAB7\LAB7\obj\Debug\LAB7.exe
+c:\users\300168447\source\repos\LAB7\LAB7\obj\Debug\LAB7.pdb
