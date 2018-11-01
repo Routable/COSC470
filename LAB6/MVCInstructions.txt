@@ -1,0 +1,44 @@
+New Project -> WEB PROJECT ASP.NET WEB APPLICATION
+
+Select MVC template.
+
+Add Unit Tests check box.
+Name it something. (MVCReview.Tests)
+
+Controller has 'HomeController.cs' It references 'Views -> Home -> About/Contact/Index.html'
+	You can run the page and it will host.
+
+Add another 'tab' (view) --- Product/Employees List.
+
+Under 'Views -> Home -> Shared -> _Layout.cshtml', we can see the links to each page. We add the link to the new tab here.
+
+Under the Unit Test section (MVCReview.Tests), open the 'Controllers -> HomeControllerTest.cs'
+	Here we have our methods for each page (public void About, etc). Add one for the additional page. 
+	If you change one half of the text view, it errors out (the ASSERT.AREEQUAL line). That line and the exact line in the main MVC template need to be the same.
+
+Under the Model folder, add a class (Right-Click -> Add -> Class). Select 'Class' under Visual C#. Name it products.
+	Under the class products, add your getters and setters for the page.
+		Public int id {get; set;}, etc.
+
+MVC is for web applications that handle dynamic data. Even for small projects. 
+
+You could add another controller under the 'Controllers' folder. (Right click Controllers -> add -> controller).
+	If you're not sure what controller we want to use, always select 'MVC 5 Controller - Empty'. Click 'Add'. Give it a name (In our case, we call it ProductsController)
+	Make sure you use the variables and names provided in the 'Models -> Products.cs'
+	Add 'using MVCReview.Models;' at the top.
+	Right-click on the 'ActionResult' and goto 'Add -> View'. Give it the name PRODUCT, the template as LIST, and the model class as PRODUCTS. Check off 'Create as a partial view'. Click add. This creates the 'Products' view in the 'MVCReview' project (View -> Home -> Products).
+
+Add the respective methods/links to: Layout, HomeController in the MVCProject and the HomeControllerTest in the secondary project.
+
+Add a new Unit test to the 'unit test'. Rename it as ProductControllerTest.
+	Rename the existing void class there as 'Product' and add lines of code similar to ones found in the 'HomeControllerTest.cs' (same project).
+
+
+
+
+
+
+
+
+
+
