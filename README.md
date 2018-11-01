@@ -45,3 +45,23 @@
                 
         3. Create associated view to show product list from web front end.
         4. In unit testing MVC project add a Test Method to check whether productlist is null or not.
+        
+  ### LAB 7 - Download Selenium WebDriver and run first Selenium Test using Firefox browser. 
+  
+     Steps involved:
+
+        1) Create a c# console project (.Net framework).
+        2) Go to Tools >> Nuget Package Manager >> Manage Nuget Packages for Solution
+        3) In the Seach Box, search for Selenium.WebDriver or Selenium and Install it.
+        
+        4) Add following directives –
+            using OpenQA.Selenium;
+            using OpenQA.Selenium.Firefox;
+            
+        5) Add following statements inside Main( ) methodIWebDriver
+            driver = new FirefoxDriver();
+            driver.Url = "http://google.ca";
+            
+        6) If you encountered by an exception for “geckodriver.dll” – then get
+            geckodriver.exe from following repository and add it in project\bin\debug
+            directory – https://github.com/mozilla/geckodriver/releases
