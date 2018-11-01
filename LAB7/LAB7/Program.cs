@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
+using NUnit.Framework;
 
 namespace LAB7
 {
@@ -14,6 +15,7 @@ namespace LAB7
         {
             IWebDriver driver = new FirefoxDriver();
             driver.Url = "http://google.ca";
+            driver.Close();
         }
     }
 }
