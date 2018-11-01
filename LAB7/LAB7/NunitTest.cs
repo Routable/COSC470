@@ -22,7 +22,7 @@ namespace LAB7
         [Test]
         public void OpenAppTest()
         {
-            driver.Url = "http://www.google.ca";
+            driver.Url = "http://www.gogole.ca";
         }
 
         [TearDown]

@@ -13,9 +13,9 @@ namespace LAB7
     {
         static void Main(string[] args)
         {
-            IWebDriver driver = new FirefoxDriver();
-            driver.Url = "http://google.ca";
-            driver.Close();
+            //IWebDriver driver = new FirefoxDriver();
+            //driver.Url = "http://google.ca";
+            //driver.Close();
         }
     }
 }
