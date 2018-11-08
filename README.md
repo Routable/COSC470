@@ -65,3 +65,33 @@
         6) If you encountered by an exception for “geckodriver.dll” – then get
             geckodriver.exe from following repository and add it in project\bin\debug
             directory – https://github.com/mozilla/geckodriver/releases
+            
+  ### LAB 8 - Selenium Testing with Chrome
+ 
+  Task 1: Web Navigation and Form submission using Selenium WebDriver.
+
+    Steps involved:
+        1)     Create a c# console project (.Net framework).
+        2)     Go to Tools >> Nuget Package Manager >> Manage Nuget Packages for Solution
+        3)     In the Seach Box, search for Selenium.WebDriver and Selenium.Chrome.WebDriver  and Install it.
+        4)     Add appropriate directives by defining “using” keywords for Selenium Web Driver.
+        5)     Open Brower and go to http://blog.testproject.io/
+        6)     Navigate to https://blog.testproject.io/contact-us/
+        7)     Using driver.FindElement( ) method,  fill up the first three field of the form, i.e., Name, Email and Subject
+        8)     Try to Submit the form by clicking the ‘Send’ button.
+        
+   Task 2: Write Selenium Test cases using NUnit Framework.
+
+Steps involved:
+
+    1)      Add a new class library (.NET framework) into the solution
+    2)      Go to References >> Manage Nuget Packages… from the Solution Explorer window from the right side.
+    3)      Install all the required driver to NUnit test cases under Selenium environment. 
+    4)      Inside the class create 3 methods and add NUnit Test Annotations as –
+    
+        [SetUp]  // Start a chrome Browser : Initialize
+        [Test]  // Open https://blog.testproject.io Website in the browser started by Selenium and    
+                //perform all the steps mentioned in task1
+        [TearDown] // Close the Browser : EndTest
+
+    5)      Run the test and observe the result.
