@@ -1,0 +1,10 @@
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\obj\Debug\SeleniumLab.csprojAssemblyReference.cache
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\obj\Debug\SeleniumLab.csproj.CoreCompileInputs.cache
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\bin\Debug\SeleniumLab.exe.config
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\bin\Debug\SeleniumLab.exe
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\bin\Debug\SeleniumLab.pdb
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\bin\Debug\WebDriver.dll
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\bin\Debug\WebDriver.xml
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\obj\Debug\SeleniumLab.csproj.CopyComplete
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\obj\Debug\SeleniumLab.exe
+C:\Users\300168447\source\repos\SeleniumLab\SeleniumLab\obj\Debug\SeleniumLab.pdb
