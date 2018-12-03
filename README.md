@@ -67,8 +67,7 @@
             directory – https://github.com/mozilla/geckodriver/releases
             
   ### LAB 8 - Selenium Testing with Chrome
- 
-  Task 1: Web Navigation and Form submission using Selenium WebDriver.
+  Web Navigation and Form submission using Selenium WebDriver.
 
     Steps involved:
         1)     Create a c# console project (.Net framework).
@@ -80,7 +79,8 @@
         7)     Using driver.FindElement( ) method,  fill up the first three field of the form, i.e., Name, Email and Subject
         8)     Try to Submit the form by clicking the ‘Send’ button.
         
-   Task 2: Write Selenium Test cases using NUnit Framework.
+  ### LAB 9 - Selenium Testing with Chrome
+  Write Selenium Test cases using NUnit Framework.
 
 Steps involved:
 
